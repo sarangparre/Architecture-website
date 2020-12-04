@@ -492,8 +492,6 @@ html {
 .input-group textarea {
   max-width: 45rem;
   max-height: 7rem;
-  min-width: 45rem;
-  min-height: 7rem;
 }
 .field:focus {
   border-bottom-style: solid;
@@ -791,4 +789,12 @@ html {
   .footer {
     height: 18rem;
   }
+}
+
+@media(max-width: 300px){
+  .change .hamburger-menu{
+    right: 35rem;
+  }
+  
+  
 }
