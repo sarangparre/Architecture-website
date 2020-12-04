@@ -779,7 +779,7 @@ html {
   }
 
   .change .hamburger-menu {
-    right: 60rem;
+    right: 50rem;
   }
 
   .service {
@@ -793,8 +793,12 @@ html {
 
 @media(max-width: 400px){
   .change .hamburger-menu{
+    right: 43rem;
+  }
+}
+
+@media(max-width: 350px){
+  .change .hamburger-menu{
     right: 35rem;
   }
-  
-  
 }
